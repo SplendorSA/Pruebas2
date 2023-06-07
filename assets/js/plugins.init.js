@@ -844,7 +844,7 @@ try {
     if (cookie('cookie-accepted') == "true") {
         el('.cookie-popup').classList.remove('cookie-popup-not-accepted');
     }else{
-        el('.cookie-popup').classList.remove('cookie-popup-not-accepted');
+        el('.cookie-popup').classList.add('cookie-popup-not-accepted');
     }
 } catch (error) {
     
