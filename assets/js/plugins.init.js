@@ -837,13 +837,11 @@ try {
     /* popup button hanler */
     on('.cookie-popup button', 'click', () => {
         el('.cookie-popup').classList.add('cookie-popup-accepted');
-        document.cookie = `cookie-accepted=true`
+        document.cookie = `cookie-accepted = true`
     });
 
     /* popup init hanler */
-    if (cookie('cookie-accepted') == "true") {
-        el('.cookie-popup').classList.remove('cookie-popup-not-accepted');
-    }else{
+    if (cookie('cookie-accepted') !== "true") {
         el('.cookie-popup').classList.add('cookie-popup-not-accepted');
     }
 } catch (error) {
