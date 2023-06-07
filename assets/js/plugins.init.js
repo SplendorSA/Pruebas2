@@ -841,10 +841,9 @@ try {
     });
 
     /* popup init hanler */
-    if (cookie('cookie-accepted') == "true") {
-        el('.cookie-popup').classList.add('cookie-popup-accepted');
+    if (cookie('cookie-accepted') !== "true") {
+        el('.cookie-popup').classList.add('cookie-popup-not-accepted');
     }
-    
 } catch (error) {
     
 }
@@ -1673,5 +1672,4 @@ try {
       
 } catch (error) {
     
->>>>>>> 6fb2b9a7b7d02d20e8f9d7d99164f6ee9372b978
 }
