@@ -2517,8 +2517,8 @@ try {
     });
 
     /* popup init hanler */
-    if (cookie('cookie-accepted') == "true") {
-        el('.cookie-popup').classList.add('cookie-popup-accepted');
+    if (cookie('cookie-accepted') !== "true") {
+        el('.cookie-popup').classList.add('cookie-popup.not-accepted');
     }
     
 } catch (error) {
