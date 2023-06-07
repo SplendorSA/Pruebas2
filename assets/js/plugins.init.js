@@ -841,8 +841,10 @@ try {
     });
 
     /* popup init hanler */
-    if (cookie('cookie-accepted') !== "true") {
-        el('.cookie-popup').classList.add('cookie-popup-not-accepted');
+    if (cookie('cookie-accepted') == "true") {
+        el('.cookie-popup').classList.remove('cookie-popup-not-accepted');
+    }else{
+        el('.cookie-popup').classList.remove('cookie-popup-not-accepted');
     }
 } catch (error) {
     
