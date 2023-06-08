@@ -1824,6 +1824,11 @@ video {
 .gap-\[24px\]{
   gap: 24px !important;
 }
+
+.gap-\[10px\]{
+  gap: 10px !important;
+}
+
 .gap-\[30\]{
   gap: 30 !important;
 }
@@ -4032,7 +4037,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: space-evenly;
   }
   #topnav .navigation-menu.justify-end li:last-child{
     -webkit-margin-end: 0px;
@@ -4136,7 +4141,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     white-space: nowrap;
   }
   :is([dir="ltr"] #topnav .navigation-menu > li .submenu.megamenu){
-    --tw-translate-x: -21%;
+    --tw-translate-x: -50%;
     -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
             transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
@@ -7884,8 +7889,8 @@ html[dir=rtl] .tns-visually-hidden {
     padding-bottom: 15rem !important;
   }
   .md\:py-64{
-    padding-top: 16rem !important;
-    padding-bottom: 16rem !important;
+    padding-top: 13rem !important;
+    padding-bottom: 13rem !important;
   }
   .md\:py-72{
     padding-top: 18rem !important;
@@ -8318,7 +8323,7 @@ html[dir=rtl] .tns-visually-hidden {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
   .lg\:grid-cols-3{
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
@@ -8531,4 +8536,16 @@ html[dir=rtl] .tns-visually-hidden {
   .xl\:p-3{
     padding: 0.75rem !important;
   }
+}
+
+.SoloMapDer{
+  padding-right: 50px !important;
+  padding-left:  50px !important;
+
+}
+
+.SoloMapIzq{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+
 }
