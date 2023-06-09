@@ -1,0 +1,21 @@
+body {
+  background-image: url("default.jpg");
+  background-size: cover;
+  transition: background-image 0.5s ease;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#image-list img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.5s ease;
+}
+
+.image-active {
+  transform: scale(1.2);
+}

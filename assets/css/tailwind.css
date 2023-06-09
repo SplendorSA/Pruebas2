@@ -1571,8 +1571,8 @@ video {
   min-width: 177.77vw !important;
 }
 
-.min-w-\[250vw\]{
-  min-width: 250vw !important;
+.min-w-\[270vw\]{
+  min-width: 270vw !important;
 }
 
 
@@ -2333,6 +2333,12 @@ video {
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/food\/menu\.jpg\'\)\]{
   background-image: url('../../assets/images/food/menu.jpg') !important;
 }
+
+.bg-prueba{
+  background-image: url('../../assets/images/Splendor/Chivas-Symbol.png') !important;
+}
+
+
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/furniture\/bg01\.jpg\'\)\]{
   background-image: url('../../assets/images/furniture/bg01.jpg') !important;
 }
@@ -2820,6 +2826,13 @@ video {
   padding-top: 9rem !important;
   padding-bottom: 9rem !important;
 }
+
+.py-362{
+  padding-top: 15rem !important;
+  padding-bottom: 15rem !important;
+}
+
+
 
 .py-300{
   padding-top: 9rem !important;
@@ -7891,6 +7904,17 @@ html[dir=rtl] .tns-visually-hidden {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
+
+  .md\:py-242{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .md\:py-243{  
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+
   .md\:py-24{
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
