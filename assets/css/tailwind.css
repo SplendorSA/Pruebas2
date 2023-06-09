@@ -2125,6 +2125,11 @@ video {
 .bg-indigo-600\/5{
   background-color: rgb(79 61 155 / 0.05) !important;
 }
+
+.bg-indigo-600\/50{
+  background-color: rgb(79 61 155 / 0.7) !important;
+}
+
 .bg-indigo-600\/90{
   background-color: rgb(79 61 155 / 0.9) !important;
 }
