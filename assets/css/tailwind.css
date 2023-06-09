@@ -1565,6 +1565,12 @@ video {
 .min-w-\[177\.77vw\]{
   min-width: 177.77vw !important;
 }
+
+.min-w-\[350vw\]{
+  min-width: 350vw !important;
+}
+
+
 .min-w-\[180px\]{
   min-width: 180px !important;
 }
@@ -1577,6 +1583,7 @@ video {
 .min-w-\[300px\]{
   min-width: 300px !important;
 }
+
 .min-w-\[40px\]{
   min-width: 40px !important;
 }
