@@ -2334,9 +2334,7 @@ video {
   background-image: url('../../assets/images/food/menu.jpg') !important;
 }
 
-.bg-prueba{
-  background-image: url('../../assets/images/Splendor/Chivas-Symbol.png') !important;
-}
+
 
 
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/furniture\/bg01\.jpg\'\)\]{
@@ -2832,7 +2830,10 @@ video {
   padding-bottom: 15rem !important;
 }
 
-
+.py-363{
+  padding-top: 30rem !important;
+  padding-bottom: 30rem !important;
+}
 
 .py-300{
   padding-top: 9rem !important;

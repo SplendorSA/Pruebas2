@@ -1,21 +1,42 @@
-body {
-  background-image: url("default.jpg");
-  background-size: cover;
-  transition: background-image 0.5s ease;
+.bg-image1 {
+  background-image: url('../../assets/images/Splendor/sección de Portafolio/shopper Experience/VRMenParallax.jpg');
 }
 
-li {
-  display: inline-block;
+.bg-image2 {
+  background-image: url('../../assets/images/Splendor/sección de Portafolio/Mobiliario/WhatsApp Image 2023-02-01 at 7.21.05 AM.jpeg');
+}
+
+.bg-image3 {
+  background-image: url('../../assets/images/Splendor/sección de Portafolio/Retail/CielitoParallax.jpeg');
+}
+
+.bg-image4 {
+  background-image: url('../../assets/images/Splendor/sección de Portafolio/Visibilidad/VisibilidadParallax.jpeg');
+}
+
+.bg-cabecera-nosotros{
+  background-image: url('../../assets/images/Splendor/Quienes somos/Portada.jpeg');
+}
+
+.image-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.image-list li {
   margin: 10px;
+}
+
+.image-list li img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
   cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 25px;
 }
 
-#image-list img {
-  width: 100px;
-  height: 100px;
-  transition: transform 0.5s ease;
-}
-
-.image-active {
-  transform: scale(1.2);
+.image-list li img.selected {
+  transform: scale(1.1);
 }
