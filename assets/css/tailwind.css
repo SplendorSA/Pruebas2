@@ -482,6 +482,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
 .container{
   width: 100%;
   margin-right: auto;
@@ -489,6 +490,8 @@ video {
   padding-right: 12px;
   padding-left: 12px;
 }
+
+
 @media (min-width: 540px){
   .container{
     max-width: 540px;
@@ -793,6 +796,11 @@ video {
 .bottom-36{
   bottom: 9rem !important;
 }
+
+.bottom-42{
+  bottom: 11.5rem !important;
+}
+
 .bottom-4{
   bottom: 1rem !important;
 }
@@ -2733,6 +2741,11 @@ video {
 .p-8{
   padding: 2rem !important;
 }
+
+.p-300{
+  padding-left: 35rem !important;
+}
+
 .p-\[30px\]{
   padding: 30px !important;
 }
@@ -7828,6 +7841,7 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:grid-cols-12{
     grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
   }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
