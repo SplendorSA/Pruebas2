@@ -2284,8 +2284,8 @@ video {
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/charity\/cta\.jpg\'\)\]{
   background-image: url('../../assets/images/charity/cta.jpg') !important;
 }
-.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/company\/aboutus\.jpg\'\)\]{
-  background-image: url('../../assets/images/company/aboutus.jpg') !important;
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/Splendor\/Contacto\/Cabecera\.jpg\'\)\]{
+  background-image: url('../../assets/images/Splendor/Contacto/Cabecera.jpg') !important;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/construction\/bg\.jpg\'\)\]{
   background-image: url('../../assets/images/construction/bg.jpg') !important;
@@ -2514,6 +2514,14 @@ video {
   --tw-gradient-to: rgb(79 70 229 / 0) var(--tw-gradient-to-position) !important;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
 }
+
+.from-Splendor-6000{
+  --tw-gradient-from: #7056c1 var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgb(112 86 193 / 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+
 .from-indigo-600\/10{
   --tw-gradient-from: rgb(79 70 229 / 0.1) var(--tw-gradient-from-position) !important;
   --tw-gradient-to: rgb(79 70 229 / 0) var(--tw-gradient-to-position) !important;
@@ -2634,6 +2642,11 @@ video {
 .to-indigo-600{
   --tw-gradient-to: #4f46e5 var(--tw-gradient-to-position) !important;
 }
+
+.to-Splendor-6000{
+  --tw-gradient-to: #4f3d9b var(--tw-gradient-to-position) !important;
+}
+
 .to-indigo-600\/10{
   --tw-gradient-to: rgb(79 70 229 / 0.1) var(--tw-gradient-to-position) !important;
 }
@@ -2785,6 +2798,13 @@ video {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
 }
+
+.px-6000{
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+}
+
+
 .py-0{
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -7664,6 +7684,11 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:mb-20{
     margin-bottom: 5rem !important;
   }
+
+  .md\:mb-50{
+    margin-bottom: 410px !important;
+  }
+
   .md\:me-10{
     -webkit-margin-end: 2.5rem !important;
             margin-inline-end: 2.5rem !important;
