@@ -1022,6 +1022,11 @@ video {
 .m-auto{
   margin: auto !important;
 }
+
+.ml-6000{
+  margin-left: 100px !important;
+}
+
 .mx-1{
   margin-left: 0.25rem !important;
   margin-right: 0.25rem !important;
@@ -1148,6 +1153,11 @@ video {
 .mb-8{
   margin-bottom: 2rem !important;
 }
+
+.mb-50{
+  margin-bottom: 280px !important;
+}
+
 .me-1{
   -webkit-margin-end: 0.25rem !important;
           margin-inline-end: 0.25rem !important;
@@ -1391,6 +1401,11 @@ video {
 .h-\[500px\]{
   height: 500px !important;
 }
+
+.h-\[350px\]{
+  height: 375px !important;
+}
+
 .h-\[50px\]{
   height: 50px !important;
 }
@@ -2859,13 +2874,13 @@ video {
 }
 
 .py-362{
-  padding-top: 15rem !important;
-  padding-bottom: 15rem !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
 }
 
 .py-363{
   padding-top: 30rem !important;
-  padding-bottom: 30rem !important;
+  padding-bottom: 15rem !important;
 }
 
 .py-300{
@@ -3042,6 +3057,12 @@ video {
 .font-nunito{
   font-family: "Nunito", sans-serif !important;
 }
+
+.text-1xl{
+  font-size: 1rem !important;
+  line-height: 2rem !important;
+}
+
 .text-2xl{
   font-size: 1.5rem !important;
   line-height: 2rem !important;
@@ -3126,6 +3147,12 @@ video {
   font-size: 1.25rem !important;
   line-height: 1.75rem !important;
 }
+
+.text-6000xl{
+  font-size: 1rem !important;
+  line-height: 1.75rem !important;
+}
+
 .text-xs{
   font-size: 0.75rem !important;
   line-height: 1rem !important;
@@ -7487,6 +7514,26 @@ html[dir=rtl] .tns-visually-hidden {
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
+@media (min-width: 320px){
+  .sm\:ml-6000{
+    margin-left: 45px !important;
+  }
+}
+
+@media (min-width: 375px){
+  .rs\:ml-6000{
+    margin-left: 75px !important;
+  }
+}
+
+@media (min-width: 425px){
+  .ks\:ml-6000{
+    margin-left: 95px !important;
+  }
+  
+}
+
+
 @media (min-width: 640px){
   .sm\:-bottom-px{
     bottom: -1px !important;
@@ -7553,6 +7600,9 @@ html[dir=rtl] .tns-visually-hidden {
     content: var(--tw-content) !important;
     width: 50rem !important;
   }
+
+  
+
 }
 
 @media (min-width: 768px){
@@ -7689,6 +7739,11 @@ html[dir=rtl] .tns-visually-hidden {
     margin-bottom: 410px !important;
   }
 
+  .md\:H-350{
+    height: 500px !important;
+  }
+
+
   .md\:me-10{
     -webkit-margin-end: 2.5rem !important;
             margin-inline-end: 2.5rem !important;
@@ -7740,6 +7795,17 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:mt-8{
     margin-top: 2rem !important;
   }
+
+  .md\:my-6000{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .md\:ml-6000{
+    margin-left: 0 !important;
+  }
+
+
   .md\:block{
     display: block !important;
   }
@@ -7955,6 +8021,11 @@ html[dir=rtl] .tns-visually-hidden {
     padding-bottom: 4rem !important;
   }
 
+  .md\:py-244{  
+    padding-top: 30rem !important;
+    padding-bottom: 30rem !important;
+  }
+
   .md\:py-24{
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
@@ -8036,6 +8107,12 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:text-right{
     text-align: right !important;
   }
+
+  .md\:text-2xl{
+    font-size: 1.25rem !important;
+    line-height: 2.25rem !important;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem !important;
     line-height: 2.25rem !important;
@@ -8625,14 +8702,4 @@ html[dir=rtl] .tns-visually-hidden {
   }
 }
 
-.SoloMapDer{
-  padding-right: 50px !important;
-  padding-left:  50px !important;
 
-}
-
-.SoloMapIzq{
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-
-}
