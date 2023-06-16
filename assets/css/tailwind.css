@@ -1158,6 +1158,11 @@ video {
   margin-bottom: 280px !important;
 }
 
+.mb-170{
+  margin-bottom: 355px !important;
+  margin-top:5px !important;
+}
+
 .me-1{
   -webkit-margin-end: 0.25rem !important;
           margin-inline-end: 0.25rem !important;
@@ -7516,21 +7521,33 @@ html[dir=rtl] .tns-visually-hidden {
 
 @media (min-width: 320px){
   .sm\:ml-6000{
-    margin-left: 45px !important;
+    margin-left: 78px !important;
+  }
+  
+  .sm\:mb-170{
+    margin-bottom: 135px !important;
+    margin-top:5px !important;
   }
 }
 
 @media (min-width: 375px){
   .rs\:ml-6000{
-    margin-left: 75px !important;
+    margin-left: 105px !important;
+  }
+  .rs\:mb-170{
+    margin-bottom: 190px !important;
+    margin-top:5px !important;
   }
 }
 
 @media (min-width: 425px){
   .ks\:ml-6000{
-    margin-left: 95px !important;
+    margin-left: 130px !important;
   }
-  
+  .ks\:mb-170{
+    margin-bottom: 240px !important;
+    margin-top:5px !important;
+  }
 }
 
 
@@ -7601,7 +7618,15 @@ html[dir=rtl] .tns-visually-hidden {
     width: 50rem !important;
   }
 
-  
+  .smm\:ml-6000{
+    margin-left: 235px !important;
+  }
+
+  .smm\:mb-170{
+    margin-bottom: 355px !important;
+    
+    margin-top:5px !important;
+  }
 
 }
 
@@ -7739,6 +7764,12 @@ html[dir=rtl] .tns-visually-hidden {
     margin-bottom: 410px !important;
   }
 
+  .md\:mb-170{
+    margin-bottom: 85px !important;
+    margin-top: 5px !important;
+  }
+  
+
   .md\:H-350{
     height: 500px !important;
   }
@@ -7805,6 +7836,9 @@ html[dir=rtl] .tns-visually-hidden {
     margin-left: 0 !important;
   }
 
+  .rd\:ml-6000{
+    margin-left: 300px !important;
+  }
 
   .md\:block{
     display: block !important;
@@ -8229,7 +8263,34 @@ html[dir=rtl] .tns-visually-hidden {
   }
 }
 
+@media (min-width: 828px){
+
+  .is\:ml-6000{
+    margin-left: 300px !important;
+  }
+
+  .is\:grid-cols-10{
+    grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
+  }
+
+}
+
+
 @media (min-width: 1024px){
+
+  .lg\:mb-170{
+    margin-bottom: 73px !important;
+    margin-top:5px !important;
+  }
+
+  .lg\:ml-6000{
+    margin-left: 0 !important;
+  }
+
+  .ltr\:ml\:text-left{
+    text-align: left !important;
+  }
+
   .lg\:absolute{
     position: absolute !important;
   }
@@ -8700,6 +8761,16 @@ html[dir=rtl] .tns-visually-hidden {
   .xl\:p-3{
     padding: 0.75rem !important;
   }
+
+  .xl\:ml-6000{
+    margin-left: 0px !important;
+  }
+
+  .xl\:mb-170{
+    margin-bottom: 25px !important;
+    margin-top:5px !important;
+  }
+
 }
 
 

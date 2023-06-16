@@ -42,3 +42,50 @@ function changeBackgroundAutomatically() {
 }
 
 setInterval(changeBackgroundAutomatically, 5000);
+
+
+
+
+function NumeroCali() {
+    /* Texto que deseas copiar al portapapeles */
+    var textoACopiar = "(+57) 312 259 8401";
+    
+    /* Crea un elemento de texto temporal */
+    var tempInput = document.createElement("input");
+    tempInput.value = textoACopiar;
+    
+    /* Agrega el elemento al DOM */
+    document.body.appendChild(tempInput);
+    
+    /* Selecciona el contenido del elemento de texto */
+    tempInput.select();
+    tempInput.setSelectionRange(0, 99999); /* Para dispositivos móviles */
+    
+    /* Copia el contenido al portapapeles */
+    document.execCommand("copy");
+    
+    /* Remueve el elemento temporal */
+    document.body.removeChild(tempInput);
+}
+
+function NumeroBogota() {
+    /* Texto que deseas copiar al portapapeles */
+    var textoACopiar = "(+57) 310 275 1404";
+    
+    /* Crea un elemento de texto temporal */
+    var tempInput = document.createElement("input");
+    tempInput.value = textoACopiar;
+    
+    /* Agrega el elemento al DOM */
+    document.body.appendChild(tempInput);
+    
+    /* Selecciona el contenido del elemento de texto */
+    tempInput.select();
+    tempInput.setSelectionRange(0, 99999); /* Para dispositivos móviles */
+    
+    /* Copia el contenido al portapapeles */
+    document.execCommand("copy");
+    
+    /* Remueve el elemento temporal */
+    document.body.removeChild(tempInput);
+}
