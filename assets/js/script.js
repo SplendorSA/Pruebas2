@@ -15,11 +15,11 @@ function changeBackground(imageElement, className, mobileClassName) {
     imageElement.classList.add('selected');
 
     section.classList.remove(getCurrentBackgroundClass());
+    section.classList.remove(getCurrentMobileBackgroundClass());
+    
     if (isMobileDevice()) {
-        section.classList.remove(getCurrentMobileBackgroundClass());
         section.classList.add(mobileClassName);
     } else {
-        section.classList.remove(getCurrentBackgroundClass());
         section.classList.add(className);
     }
     currentImageIndex = Array.from(images).indexOf(imageElement);
@@ -33,7 +33,7 @@ function getCurrentBackgroundClass() {
             return className;
         }
     }
-    return 'bg-image1';
+    return 'bg-prueba';
 }
 
 function getCurrentMobileBackgroundClass() {
@@ -44,7 +44,7 @@ function getCurrentMobileBackgroundClass() {
             return className;
         }
     }
-    return 'mobile-bg-image1';
+    return 'md:mobile-bg-image1';
 }
 
 function changeBackgroundAutomatically() {
@@ -65,7 +65,6 @@ setInterval(changeBackgroundAutomatically, 5000);
 function isMobileDevice() {
     return window.innerWidth <= 828;
 }
-
 
 
 function NumeroCali() {

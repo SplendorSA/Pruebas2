@@ -64,9 +64,9 @@
 .mobile-bg-image2,
 .mobile-bg-image3,
 .mobile-bg-image4 {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+  background-size: cover !important;
 }
 
 @media (min-width: 828px) {
@@ -74,13 +74,16 @@
         background-image: url('../../assets/images/Splendor/index/Parallax/VRManReDim.jpg') !important;
     }
     .mobile-bg-image2 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/VRManReDim.jpg') !important;
+        background-image: url('../../assets/images/Splendor/index/Parallax/BuchanansParallaxReDim.png') !important;
     }
     
     .mobile-bg-image3 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/VRManReDim.jpg') !important;
+        background-image: url('../../assets/images/Splendor/index/Parallax/OldParrParallaxReDim.png') !important;
     }
     
     .mobile-bg-image4 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/VRManReDim.jpg') !important;
+        background-image: url('../../assets/images/Splendor/index/Parallax/ACMEParallaxReDim.png') !important;
+    } 
+    
+    
 }
