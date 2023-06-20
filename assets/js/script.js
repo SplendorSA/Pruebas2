@@ -14,9 +14,7 @@ function changeBackground(imageElement, className, mobileClassName) {
     images.forEach(img => img.classList.remove('selected'));
     imageElement.classList.add('selected');
 
-    section.classList.remove(getCurrentBackgroundClass());
-    section.classList.remove(getCurrentMobileBackgroundClass());
-    
+    section.classList.remove(getAllBackgroundClasses());
     if (isMobileDevice()) {
         section.classList.add(mobileClassName);
     } else {
@@ -25,26 +23,9 @@ function changeBackground(imageElement, className, mobileClassName) {
     currentImageIndex = Array.from(images).indexOf(imageElement);
 }
 
-function getCurrentBackgroundClass() {
+function getAllBackgroundClasses() {
     const classList = section.classList;
-    for (let i = 0; i < classList.length; i++) {
-        const className = classList[i];
-        if (className.startsWith(imageClassPrefix)) {
-            return className;
-        }
-    }
-    return 'bg-prueba';
-}
-
-function getCurrentMobileBackgroundClass() {
-    const classList = section.classList;
-    for (let i = 0; i < classList.length; i++) {
-        const className = classList[i];
-        if (className.startsWith(mobileImageClassPrefix)) {
-            return className;
-        }
-    }
-    return 'md:mobile-bg-image1';
+    return Array.from(classList).filter(className => className.startsWith(imageClassPrefix) || className.startsWith(mobileImageClassPrefix));
 }
 
 function changeBackgroundAutomatically() {
@@ -65,6 +46,8 @@ setInterval(changeBackgroundAutomatically, 5000);
 function isMobileDevice() {
     return window.innerWidth <= 828;
 }
+
+
 
 
 function NumeroCali() {
