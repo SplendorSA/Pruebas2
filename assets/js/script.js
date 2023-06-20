@@ -1,4 +1,5 @@
 const imageClassPrefix = 'bg-image';
+const mobileImageClassPrefix = 'mobile-bg-image';
 const section = document.getElementById('Parara');
 let currentImageIndex = 0;
 const images = [
@@ -8,13 +9,19 @@ const images = [
     'path-to-image4.jpg'
 ];
 
-function changeBackground(imageElement, className) {
+function changeBackground(imageElement, className, mobileClassName) {
     const images = imageElement.parentNode.parentNode.querySelectorAll('img');
     images.forEach(img => img.classList.remove('selected'));
     imageElement.classList.add('selected');
 
     section.classList.remove(getCurrentBackgroundClass());
-    section.classList.add(className);
+    if (isMobileDevice()) {
+        section.classList.remove(getCurrentMobileBackgroundClass());
+        section.classList.add(mobileClassName);
+    } else {
+        section.classList.remove(getCurrentBackgroundClass());
+        section.classList.add(className);
+    }
     currentImageIndex = Array.from(images).indexOf(imageElement);
 }
 
@@ -26,7 +33,18 @@ function getCurrentBackgroundClass() {
             return className;
         }
     }
-    return 'bg-prueba';
+    return 'bg-image1';
+}
+
+function getCurrentMobileBackgroundClass() {
+    const classList = section.classList;
+    for (let i = 0; i < classList.length; i++) {
+        const className = classList[i];
+        if (className.startsWith(mobileImageClassPrefix)) {
+            return className;
+        }
+    }
+    return 'mobile-bg-image1';
 }
 
 function changeBackgroundAutomatically() {
@@ -38,11 +56,15 @@ function changeBackgroundAutomatically() {
     const imageElements = section.querySelectorAll('.image-list li img');
     const imageElement = imageElements[currentImageIndex];
     const className = 'bg-image' + (currentImageIndex + 1);
-    changeBackground(imageElement, className);
+    const mobileClassName = 'mobile-bg-image' + (currentImageIndex + 1);
+    changeBackground(imageElement, className, mobileClassName);
 }
 
 setInterval(changeBackgroundAutomatically, 5000);
 
+function isMobileDevice() {
+    return window.innerWidth <= 828;
+}
 
 
 
