@@ -69,7 +69,7 @@
   background-size: cover !important;
 }
 
-@media (min-width: 828px) {
+@media (max-width: 828px) {
     .mobile-bg-image1 {
         background-image: url('../../assets/images/Splendor/index/Parallax/VRManReDim.jpg') !important;
     }
