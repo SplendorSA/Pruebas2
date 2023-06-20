@@ -64,22 +64,6 @@
 .mobile-bg-image2,
 .mobile-bg-image3,
 .mobile-bg-image4 {
-  background-repeat: no-repeat !important;
-  background-position: top !important;
-  background-size: cover !important;
-
-
-  height: 100%;
-  position: relative !important;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  background-size: cover !important;
-  top: 0 !important;
-  width: 100vw !important;
-  height: 100vh !important;
-  z-index: -1 !important;
-
-
 
 }
 
