@@ -60,28 +60,8 @@
   transform: scale(1.1);
 }
 
-.mobile-bg-image1,
-.mobile-bg-image2,
-.mobile-bg-image3,
-.mobile-bg-image4 {
-
-}
-
 @media (max-width: 828px) {
-    .mobile-bg-image1 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/VRManReDim.jpg') !important;
-    }
-    .mobile-bg-image2 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/BuchanansParallaxReDim.png') !important;
-    }
-    
-    .mobile-bg-image3 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/OldParrParallaxReDim.png') !important;
-    }
-    
-    .mobile-bg-image4 {
-        background-image: url('../../assets/images/Splendor/index/Parallax/ACMEParallaxReDim.png') !important;
-    } 
-    
-    
+  #Parara {
+      background-attachment: scroll !important;
+  }
 }
