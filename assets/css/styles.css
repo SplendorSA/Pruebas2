@@ -1,5 +1,7 @@
 .bg-image1 {
   background-image: url('../../assets/images/Splendor/index/Parallax/VRMan.jpg') !important;
+  -webkit-background-size: auto !important;
+  background-size: auto !important;
 }
 
 .bg-image2 {
