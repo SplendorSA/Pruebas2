@@ -1,37 +1,37 @@
 .bg-image1 {
   background-image: url('../../assets/images/Splendor/index/Parallax/VRMan.jpg');
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
 }
 
 .bg-image2 {
   background-image: url('../../assets/images/Splendor/index/Parallax/BuchanansParallax.png');
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
 }
 
 .bg-image3 {
   background-image: url('../../assets/images/Splendor/index/Parallax/OldParrParallax.png');
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
 }
 
 .bg-image4 {
   background-image: url('../../assets/images/Splendor/index/Parallax/ACMEParallax.png');
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
 }
 
 .bg-cabecera-nosotros{
   background-image: url('../../assets/images/Splendor/Quienes somos/Portada.jpeg');
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
 }
 
 .bg-cabecera-index{
   background-image: url('../../assets/images/Splendor/index/Cabecera-Inicio.jpg');
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
 }
 
 .image-list {
