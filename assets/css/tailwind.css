@@ -2090,7 +2090,7 @@ video {
 }
 .bg-black{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(22 28 45 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(53 42 104 / var(--tw-bg-opacity)) !important;
 }
 .bg-black\/25{
   background-color: rgb(22 28 45 / 0.25) !important;
@@ -2607,8 +2607,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), rgb(22 28 45 / 0.4) var(--tw-gradient-via-position), var(--tw-gradient-to) !important;
 }
 .via-black\/50{
-  --tw-gradient-to: rgb(22 28 45 / 0)  var(--tw-gradient-to-position) !important;
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(22 28 45 / 0.5) var(--tw-gradient-via-position), var(--tw-gradient-to) !important;
+  --tw-gradient-to: rgb(53 42 104 / 0)  var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(53 42 104  / 0.5) var(--tw-gradient-via-position), var(--tw-gradient-to) !important;
 }
 .via-black\/80{
   --tw-gradient-to: rgb(22 28 45 / 0)  var(--tw-gradient-to-position) !important;
@@ -2651,7 +2651,7 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), rgb(255 255 255 / 0.8) var(--tw-gradient-via-position), var(--tw-gradient-to) !important;
 }
 .to-black{
-  --tw-gradient-to: #161c2d var(--tw-gradient-to-position) !important;
+  --tw-gradient-to: #4f3d9b var(--tw-gradient-to-position) !important;
 }
 .to-fuchsia-600\/70{
   --tw-gradient-to: rgb(192 38 211 / 0.7) var(--tw-gradient-to-position) !important;
@@ -5585,7 +5585,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   margin: 0.25rem;
   border-radius: 3px;
   border-width: 0px;
-  background-color: rgb(79 70 229 / 0.3);
+  background-color: rgb(156 156 226 / 0.3);
   padding: 5px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -5599,7 +5599,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+  background-color: rgb(156 156 226 / var(--tw-bg-opacity));
 }
 
 /* Tns control */
@@ -7524,16 +7524,32 @@ html[dir=rtl] .tns-visually-hidden {
     margin-left: 78px !important;
   }
   
+  .sm\:mr-6200{
+    margin-right: 15px !important;
+  }
+
   .sm\:mb-170{
     margin-bottom: 135px !important;
     margin-top:5px !important;
   }
+
+  .sm\:hidden{
+    display: none !important;
+  }
+
 }
 
 @media (min-width: 375px){
   .rs\:ml-6000{
     margin-left: 105px !important;
   }
+
+  .rs\:hidden{
+    display: none !important;
+  }
+
+
+
   .rs\:mb-170{
     margin-bottom: 190px !important;
     margin-top:5px !important;
@@ -7544,9 +7560,16 @@ html[dir=rtl] .tns-visually-hidden {
   .ks\:ml-6000{
     margin-left: 130px !important;
   }
+  .ks\:mr-6200{
+    margin-right: 20px !important;
+  }
   .ks\:mb-170{
     margin-bottom: 240px !important;
     margin-top:5px !important;
+  }
+
+  .ks\:hidden{
+    display: none !important;
   }
 }
 
@@ -7582,6 +7605,11 @@ html[dir=rtl] .tns-visually-hidden {
   .sm\:block{
     display: block !important;
   }
+
+  .sm\:hidden{
+    display: none !important;
+  }
+
   .sm\:flex{
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -7838,6 +7866,10 @@ html[dir=rtl] .tns-visually-hidden {
 
   .rd\:ml-6000{
     margin-left: 300px !important;
+  }
+
+  .rd\:mr-6200{
+    margin-left: 185px !important;
   }
 
   .md\:block{
@@ -8291,8 +8323,20 @@ html[dir=rtl] .tns-visually-hidden {
     margin-left: 0 !important;
   }
 
+  .lg\:mr-6200{
+    margin-right: 0 !important;
+  }
+
+  .lg\:ml-6200{
+    margin-left: 300px !important;
+  }
+
   .ltr\:ml\:text-left{
     text-align: left !important;
+  }
+
+  .ltr\:mc\:text-center{
+    text-align: center !important;
   }
 
   .lg\:absolute{
@@ -8438,6 +8482,12 @@ html[dir=rtl] .tns-visually-hidden {
   .lg\:block{
     display: block !important;
   }
+
+  .lg\:hidden{
+    display: none !important;
+  }
+
+
   .lg\:flex{
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -8470,6 +8520,12 @@ html[dir=rtl] .tns-visually-hidden {
   .lg\:h-screen{
     height: 100vh !important;
   }
+
+  .lg\:w-full{
+    weight: 100% !important;
+  }
+
+
   .lg\:w-1\/2{
     width: 50% !important;
   }
