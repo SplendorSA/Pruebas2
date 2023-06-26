@@ -2426,7 +2426,8 @@ video {
   background-image: url('../../assets/images/photography/photographer.jpg') !important;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/portfolio\/bg-inner\.jpg\'\)\]{
-  background-image: url('../../assets/images/portfolio/bg-inner.jpg') !important;
+  background-image: url('../../assets/images/Splendor/Portafolio/PortafolioCabecera.png') !important;
+  padding-top: 5rem !important;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/real\/bg\/01\.jpg\'\)\]{
   background-image: url('../../assets/images/real/bg/01.jpg') !important;
@@ -2438,7 +2439,7 @@ video {
   background-image: url('../../assets/images/saas/home.jpg') !important;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/services\.jpg\'\)\]{
-  background-image: url('../../assets/images/services.jpg') !important;
+  background-image: url('../../assets/images/Splendor/ServiciosCabecera.png') !important;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/team\.jpg\'\)\]{
   background-image: url('../../assets/images/team.jpg') !important;
