@@ -2426,9 +2426,27 @@ video {
   background-image: url('../../assets/images/photography/photographer.jpg') !important;
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/portfolio\/bg-inner\.jpg\'\)\]{
-  background-image: url('../../assets/images/Splendor/Portafolio/PortafolioCabecera.png') !important;
-  padding-top: 5rem !important;
+  background-image: url('../../assets/images/Splendor/Portafolio/Artboard 24.png') !important;
 }
+
+.bg-Cabecera1{
+  background-image: url('../../assets/images/Splendor/Portafolio/MobiliarioCabecera.png') !important;
+}
+
+.bg-Cabecera2{
+  background-image: url('../../assets/images/Splendor/Portafolio/RetailCabecera.png') !important;
+}
+
+.bg-Cabecera3{
+  background-image: url('../../assets/images/Splendor/Portafolio/ShopExpCabecera.png') !important;
+}
+
+.bg-Cabecera4{
+  background-image: url('../../assets/images/Splendor/Portafolio/VisibilidadCabecera.png') !important;
+}
+
+
+
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/real\/bg\/01\.jpg\'\)\]{
   background-image: url('../../assets/images/real/bg/01.jpg') !important;
 }
